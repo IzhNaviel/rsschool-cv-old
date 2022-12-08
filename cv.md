@@ -29,3 +29,12 @@ let result = '';
   return result;
 }
 ```
+## Experiens: 
+* 6 year working in web-studio’s
+* 3 year work on a editorial office
+===
+## Languages
+* [www.efset.org](https://www.efset.org/) – 63%  
+
+## Courses
+* Yandex Practicum: QA engineer
