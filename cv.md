@@ -15,7 +15,7 @@ IM 33 years old. I have been working as a content manager for quite a long time 
 * Figma
 * CaptureOne
 * Lightroom
-===
+
 ## Code example:
 ```
 function fakeBin(x){
