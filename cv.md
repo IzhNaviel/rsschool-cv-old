@@ -8,3 +8,24 @@
 ## About:
 IM 33 years old. I have been working as a content manager for quite a long time and have studied this direction up and down. I hope to move to a more thoughtful placement of material thanks to the skills of the front-end.
 ===
+## Skills:
+* HTML
+* Photoshop
+* Adobe Illustrator
+* Figma
+* CaptureOne/Lightroom
+===
+## Code example:
+```
+function fakeBin(x){
+let i = 0;
+let result = '';
+  while (i < x.length) {
+  if (x[i] < 5) {
+      result= `${result}${0}`;
+    } else { result= `${result}${1}`; }
+  i += 1;
+}
+  return result;
+}
+```
