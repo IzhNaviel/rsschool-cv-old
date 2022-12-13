@@ -1,2 +1,2 @@
-# [rsschool-cv](https://izhnaviel.github.io/rsschool-cv/cv)
-# [rsschool-cv](https://izhnaviel.github.io/rsschool-cv/)
+# https://izhnaviel.github.io/rsschool-cv/cv
+# https://izhnaviel.github.io/rsschool-cv/
