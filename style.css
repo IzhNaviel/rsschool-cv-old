@@ -90,6 +90,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
+    width: 150px;
 }
 
 .contacts-items {
@@ -200,6 +201,10 @@ p {
     margin-right: 40px;
     width: 2px;
     background-color: green;
+}
+
+.english-level {
+    width: 90%;
 }
 /* /Language */
 
