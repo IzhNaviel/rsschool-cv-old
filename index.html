@@ -1,28 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>CV Dmitriy Koshcheev</title>
-    <meta name="description" content="CV Dmitriy Koshcheev">
-    <meta name="author" content="SitePoint">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>CV Dmitriy Koshcheev</title>
+  <meta name="description" content="CV Dmitriy Koshcheev">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;500;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <header>
     <div class="wrapper-outer-nav">
         <div class="wrapper-inner">
             <nav class="nav"> 
                 <ul class="nav-wrapper">             
-                    <li class="nav-item"> <a href="/" class="">Main</a></li>
-                    <li class="nav-item"><a href="/">Skills</a></li>
-                    <li class="nav-item"><a href="/">Experiens</a></li>
-                    <li class="nav-item"><a href="/">Courses</a></li>
-                    <li class="nav-item"><a href="/">About</a></li>
-                    <li class="nav-item"><a href="/">Code</a></li>
+                    <li class="nav-item"> <a href="#main" class="">Main</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#experiense">Experiens</a></li>
+                    <li class="nav-item"><a href="#courses">Courses</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
                 </ul>              
             </nav>
         </div>
@@ -31,7 +33,7 @@
 <main>   
     <div class="wrapper-outer">
         <div class="wrapper-inner">
-            <div class="head">
+            <div class="head" id="main">
                 <div > <img src="/img/Ава.jpg" width="150px" class="avatar"></div>
                 <div class="name"><h1>Koshcheev Dmitriy</h1></div>
                 <div class="contacts">
@@ -48,7 +50,7 @@
                 <div class="content-wrapper">
                     <aside class="aside">
                         <div class="aside-item">
-                            <h2>Skills</h2>
+                            <h2 id="skills">Skills</h2>
                             <ul class="skills-items">
                                 <li>HTML</li>
                                 <li>Photoshop</li>
@@ -58,14 +60,14 @@
                             </ul>
                             </div>
                             <div class="aside-item">
-                                <h2>Experiens</h2>
+                                <h2 id="experiens">Experiens</h2>
                                 <ul>
                                     <li>6 year working in web-studio’s as a content manager</li>
                                     <li>3 year work on a editorial office as a content manager</li>
                                 </ul>
                             </div>
                             <div class="aside-item">
-                                <h2>Courses</h2>
+                                <h2 id="courses">Courses</h2>
                                 <ul>
                                     <li>1C bitrix: Content manager</li>
                                     <li>Yandex Practicum: QA engineer</li>
@@ -75,12 +77,12 @@
                     </aside>
                     <div class="content">
                         <div class="about">
-                            <h2>About</h2>
+                            <h2 id="about">About</h2>
                             <p>I'm 33 years old. I have been working as a content manager for quite a long time and have studied this direction up and down. I hope to move to a more thoughtful placement of material thanks to the skills of the front-end.
                             </p>
                         </div>
                         <div class="code-example">
-                            <h2>Code example</h2>
+                            <h2 id="code">Code example</h2>
                             <p><span class="code-tag">function</span> fakeBin(<span class="code-result">x</span>){</p>
                                 <p><span class="code-tag">let</span> i = <span class="code-result">0</span>;</p>
                                 <p><span class="code-tag">let</span> result = <span class="code-result">''</span>;</p>
@@ -103,6 +105,7 @@
             </div>
         </div>
 </main>
+
 </body>
 <footer>
     <div class="wrapper-outer">
