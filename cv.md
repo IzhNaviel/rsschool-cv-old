@@ -32,6 +32,9 @@ let count = 0;
     });
  }
 ```
+## Learning project (HTML, CSS, Java Script):
+* [izhnaviel.github.io/Plants/](https://izhnaviel.github.io/Plants/) 
+
 ## Experiens: 
 * 6 year working in web-studio’s
 * 3 year work on a editorial office
