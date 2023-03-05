@@ -18,17 +18,19 @@ IM 33 years old. I have been working as a content manager for quite a long time 
 
 ## Code example:
 ```
-function fakeBin(x){
-let i = 0;
-let result = '';
-  while (i < x.length) {
-  if (x[i] < 5) {
-      result= `${result}${0}`;
-    } else { result= `${result}${1}`; }
-  i += 1;
-}
-  return result;
-}
+const accBtn = document.querySelectorAll ('.accordion__item');
+const itWrap = document.querySelectorAll ('.accordion__item-wrapper');
+const textWrap = document.querySelectorAll ('.accordion__item-text-wrapper');
+let count = 0;
+
+ for ( let i = 0; i<accBtn.length; i++) {
+    accBtn[i].addEventListener ('click', (e) => { 
+        if (e.target.classList == 'accordion-btn-title') {
+                accBtn[i].classList.toggle ('item-active');
+                textWrap[i].classList.toggle ('accordion__item-text-wrapper-active');           
+            } 
+    });
+ }
 ```
 ## Experiens: 
 * 6 year working in web-studio’s
